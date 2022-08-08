@@ -41,7 +41,6 @@ jobs:
               with:
                   name: build
                   path: build
-            - uses: actions/download-artifact
             - name: Deploy to Staging
               if: github.event_name == 'push'
               env:
