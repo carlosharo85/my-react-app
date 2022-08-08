@@ -1,6 +1,6 @@
 {
     "name": "my-react-app",
-    "version": "0.1.0",
+    "version": "0.0.0-development",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.4",
@@ -17,7 +17,8 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "format:check": "prettier --check \"**/*.{js,yml,json,css,scss,md}\"",
-        "format": "prettier --write \"**/*.{js,yml,json,css,scss,md}\""
+        "format": "prettier --write \"**/*.{js,yml,json,css,scss,md}\"",
+        "semantic-release": "semantic-release"
     },
     "eslintConfig": {
         "extends": [
@@ -40,5 +41,9 @@
     "devDependencies": {
         "prettier": "2.7.1",
         "semantic-release": "^19.0.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/carlosharo85/my-react-app.git"
     }
 }
