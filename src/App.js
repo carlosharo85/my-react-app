@@ -17,6 +17,9 @@ function App() {
                 >
                     Learn React
                 </a>
+                <p>
+                    By: <code>Carlos Haro</code>
+                </p>
             </header>
         </div>
     );
