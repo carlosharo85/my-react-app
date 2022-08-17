@@ -1,0 +1,17 @@
+name: Hello World
+author: Carlos Haro
+description: Envia un mensaje de saludo
+
+inputs:
+    who-to-greet:
+        description: "Who to greet"
+        required: true
+        default: Carlos
+
+outputs:
+    time:
+        description: "The greeting time"
+
+runs:
+    using: "node12"
+    main: "dist/index.js"
