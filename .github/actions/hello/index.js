@@ -16,6 +16,8 @@ try {
     core.startGroup("loggin github object");
     console.log(JSON.stringify(github, null, "\t"));
     core.endGroup();
+
+    core.exportVariable("HELLO", "hello");
 } catch (error) {
     core.setFailed(error.message);
 }
